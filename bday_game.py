@@ -31,6 +31,7 @@ with st.form("first_q"):
 if first_q_submit == True:
     if first_q == "A Patronus Message":
         st.success("YOU'RE A WIZARD, HARRY")
+        st.balloons()
     else:
         st.error("What kind of Harry Potter fan are you?!?!?! Try again")
 
@@ -94,6 +95,7 @@ if st.session_state.random_guess is not None:
         st.success(
             f"I guessed your number in {st.session_state.tries} tries!"
         )
+        st.balloons()
 
     elif evaluation == "Too High":
         st.session_state.maximum = st.session_state.random_guess - 1
