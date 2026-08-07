@@ -118,4 +118,4 @@ if st.session_state.random_guess is not None:
 
 # Do a game based on a dataset, do a 
 st.balloons()
-st.image("C:/Users/owner/Willow_Bday/Harry_Potter_Meme.webp")
+st.image("Harry_Potter_Meme.webp")
