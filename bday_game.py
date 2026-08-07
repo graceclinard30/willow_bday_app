@@ -13,7 +13,8 @@ with st.form("play_form"):
 
 if play_submit == True:
     if play_response.lower() in ("Yes","yes","Yeah","YEAH","YES","yeah","Yep"):
-        st.success("GREAT! No is not an option") st.balloons()
+        st.success("GREAT! No is not an option")
+        st.balloons()
     else:
         st.error("You meant to say Yes")
 
